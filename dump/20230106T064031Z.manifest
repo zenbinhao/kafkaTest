@@ -1,0 +1,145 @@
+{
+  "manifestVersion": 2,
+  "kv": {
+    "fileName": "20230106T064031Z.bolt.gz",
+    "size": 3845,
+    "compression": 1
+  },
+  "sql": {
+    "fileName": "20230106T064031Z.sqlite.gz",
+    "size": 3073,
+    "compression": 1
+  },
+  "buckets": [
+    {
+      "organizationID": "6dfb5a9da54d09d7",
+      "organizationName": "engi",
+      "bucketID": "176f342926483069",
+      "bucketName": "device",
+      "defaultRetentionPolicy": "autogen",
+      "retentionPolicies": [
+        {
+          "name": "autogen",
+          "replicaN": 1,
+          "duration": 0,
+          "shardGroupDuration": 604800000000000,
+          "shardGroups": [
+            {
+              "id": 1,
+              "startTime": "2022-11-14T00:00:00Z",
+              "endTime": "2022-11-21T00:00:00Z",
+              "shards": [
+                {
+                  "id": 1,
+                  "shardOwners": [],
+                  "fileName": "20230106T064031Z.1.tar.gz",
+                  "size": 486927,
+                  "compression": 1
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "startTime": "2022-11-21T00:00:00Z",
+              "endTime": "2022-11-28T00:00:00Z",
+              "shards": [
+                {
+                  "id": 2,
+                  "shardOwners": [],
+                  "fileName": "20230106T064031Z.2.tar.gz",
+                  "size": 5184610,
+                  "compression": 1
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "startTime": "2022-11-28T00:00:00Z",
+              "endTime": "2022-12-05T00:00:00Z",
+              "shards": [
+                {
+                  "id": 3,
+                  "shardOwners": [],
+                  "fileName": "20230106T064031Z.3.tar.gz",
+                  "size": 8509284,
+                  "compression": 1
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "startTime": "2022-12-05T00:00:00Z",
+              "endTime": "2022-12-12T00:00:00Z",
+              "shards": [
+                {
+                  "id": 4,
+                  "shardOwners": [],
+                  "fileName": "20230106T064031Z.4.tar.gz",
+                  "size": 5680277,
+                  "compression": 1
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "startTime": "2022-12-12T00:00:00Z",
+              "endTime": "2022-12-19T00:00:00Z",
+              "shards": [
+                {
+                  "id": 5,
+                  "shardOwners": [],
+                  "fileName": "20230106T064031Z.5.tar.gz",
+                  "size": 5599366,
+                  "compression": 1
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "startTime": "2022-12-19T00:00:00Z",
+              "endTime": "2022-12-26T00:00:00Z",
+              "shards": [
+                {
+                  "id": 6,
+                  "shardOwners": [],
+                  "fileName": "20230106T064031Z.6.tar.gz",
+                  "size": 5608373,
+                  "compression": 1
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "startTime": "2022-12-26T00:00:00Z",
+              "endTime": "2023-01-02T00:00:00Z",
+              "shards": [
+                {
+                  "id": 7,
+                  "shardOwners": [],
+                  "fileName": "20230106T064031Z.7.tar.gz",
+                  "size": 5538574,
+                  "compression": 1
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "startTime": "2023-01-02T00:00:00Z",
+              "endTime": "2023-01-09T00:00:00Z",
+              "shards": [
+                {
+                  "id": 8,
+                  "shardOwners": [],
+                  "fileName": "20230106T064031Z.8.tar.gz",
+                  "size": 3181821,
+                  "compression": 1
+                }
+              ]
+            }
+          ],
+          "subscriptions": []
+        }
+      ]
+    }
+  ]
+}
